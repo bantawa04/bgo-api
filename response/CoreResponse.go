@@ -10,7 +10,7 @@ type Response struct {
 	Status     bool        `json:"status"`
 	Message    string      `json:"message"`
 	Data       interface{} `json:"data,omitempty"`
-	StatusCode int         `json:"code"`
+	StatusCode int         `json:"statusCode"`
 }
 
 func Success(c *gin.Context, message string, data interface{}) {
