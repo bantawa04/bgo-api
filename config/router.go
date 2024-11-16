@@ -2,7 +2,7 @@ package config
 
 import (
 	"fmt"
-	"github.com/bantawa04/bgo-api/response"
+	"github.com/bantawa04/bgo-api/app/response"
 	"github.com/getsentry/sentry-go"
 	sentrygin "github.com/getsentry/sentry-go/gin"
 	"github.com/gin-contrib/cors"

@@ -2,8 +2,8 @@ package bootstrap
 
 import (
 	"context"
+	"github.com/bantawa04/bgo-api/app/controllers"
 	"github.com/bantawa04/bgo-api/config"
-	"github.com/bantawa04/bgo-api/controllers"
 	"github.com/bantawa04/bgo-api/routes"
 
 	"go.uber.org/fx"

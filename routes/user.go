@@ -1,8 +1,8 @@
 package routes
 
 import (
+	"github.com/bantawa04/bgo-api/app/controllers"
 	"github.com/bantawa04/bgo-api/config"
-	"github.com/bantawa04/bgo-api/controllers"
 )
 
 // UserRoutes struct

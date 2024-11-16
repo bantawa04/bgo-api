@@ -1,8 +1,8 @@
 package controllers
 
 import (
+	"github.com/bantawa04/bgo-api/app/response"
 	"github.com/bantawa04/bgo-api/config"
-	"github.com/bantawa04/bgo-api/response"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strconv"
